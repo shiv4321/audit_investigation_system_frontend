@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #86BC25;
+  --risk-critical: #C0392B;
+  --risk-high: #E67E22;
+  --risk-medium: #F1C40F;
+  --risk-low: #27AE60;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background-color: #fafaf7;
+  color: #111;
+  font-family: 'DM Mono', 'SF Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #f0f0ec; }
+::-webkit-scrollbar-thumb { background: #d0d0c8; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #86BC25; }
