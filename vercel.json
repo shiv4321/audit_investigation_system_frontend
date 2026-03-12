@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://your-render-url.onrender.com/api/$1" }
+    { "source": "/api/(.*)", "destination": "https://audit-investigation-system-backend.onrender.com/api/$1" }
   ],
   "headers": [
     {
